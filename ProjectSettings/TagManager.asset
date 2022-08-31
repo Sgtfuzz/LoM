@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
+  - HurtBox
   layers:
   - Default
   - TransparentFX
@@ -15,9 +16,9 @@ TagManager:
   - Ground
   - 
   - Enemy
-  - Player
   - Objects
-  - 
+  - Player
+  - House
   - 
   - 
   - 
@@ -45,15 +46,24 @@ TagManager:
   - name: Ground
     uniqueID: 649487205
     locked: 0
+  - name: Walls
+    uniqueID: 3885354379
+    locked: 0
   - name: Enemy
     uniqueID: 860362785
+    locked: 0
+  - name: Objects2
+    uniqueID: 2473471445
     locked: 0
   - name: Player
     uniqueID: 4276154375
     locked: 0
+  - name: Objects
+    uniqueID: 2005273795
+    locked: 0
   - name: Mountain
     uniqueID: 1853396947
     locked: 0
-  - name: Objects
-    uniqueID: 2005273795
+  - name: House
+    uniqueID: 4187463509
     locked: 0
